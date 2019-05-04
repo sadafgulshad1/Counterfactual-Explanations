@@ -1,4 +1,4 @@
-# pytorch-nips2017-attack-example
+# Adversarial_attack_code
 
 This is a baseline targeted (or untargeted) attack that works within the Cleverhans (https://github.com/tensorflow/cleverhans) framework for the NIPS-2017 adversarial competition. 
 
@@ -38,7 +38,9 @@ python run_attack_iter.py \
   --norm 1 \
   --checkpoint_path=inception_v3_google-1a9a5a14.pth
 ```
+```
 python run_attack_iter.py   --input_dir="/home/sgulshad/sadaf/CUB_experiments/test_split"   --output_dir="/home/sgulshad/sadaf/CUB_experiments/pytorch-nips2017-attack-example/output_adv_test_8_l2"   --max_epsilon="8"   --checkpoint_path=transfer_learn_CUB_Stephan.pth --norm 2
+```
 Iterative targeted L2:
 ```
 python run_attack_iter.py \
@@ -60,6 +62,7 @@ python run_attack_cwl2.py \
   --targeted \
   --checkpoint_path=inception_v3_google-1a9a5a14.pth
 ```
+```
 python run_attack_cwl2.py   --input_dir="/home/sgulshad/sadaf/CUB_experiments/test_split"   --output_dir="/home/sgulshad/sadaf/CUB_experiments/pytorch-nips2017-attack-example/cw_attacks"   --max_epsilon="16"   --checkpoint_path=transfer_learn_CUB_Stephan.pth
-
+```
 
