@@ -16,3 +16,8 @@
 9. Execute the code in **3.Adversarial_attack_code** according to instructions in readme and generate examples with random noise. ```run_attack_iter_CUB_random.py```
 10. For testing Finetuned network's performance on examples with random noise run ```9.CUB_test_random_noise.py```.
 11. Analysis for randomly noised images could be performed in the same way as adversarial examples.
+## Acknowledgments
+
+* Code from [rwightman/pytorch-nips2017-attack-example](https://github.com/rwightman/pytorch-nips2017-attack-example) is used for generating adversarial examples.
+* Code from [yqxian/GCPR_Tutorial](https://github.com/sadafgulshad1/GCPR_Tutorial/tree/master/demo/sje) is used for predicting attributes.
+* Code from [wanglouis49/pytorch-adversarial_box] (https://github.com/wanglouis49/pytorch-adversarial_box) is used for creating defenses.
