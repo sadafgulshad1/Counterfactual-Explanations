@@ -8,7 +8,7 @@ For executing this code you need to install
 * Pytorch0.3
 * Python2.6
 * Caffe (for grounding model)
-
+### Running the code 
 1. Fine tune Resnet-152 for CUB dataset by by running 
 ```1.CUBFinetune.py```
 2. For testing the Finetuned network run ```2.CUB_test.py```
