@@ -16,6 +16,7 @@
 9. Execute the code in **3.Adversarial_attack_code** according to instructions in readme and generate examples with random noise. ```run_attack_iter_CUB_random.py```
 10. For testing Finetuned network's performance on examples with random noise run ```9.CUB_test_random_noise.py```.
 11. Analysis for randomly noised images could be performed in the same way as adversarial examples.
+12. For grounding predicted attributes for clean images on clean and adversarial images on adversarial execute code ```demo_copy5.py``` in folder **11.Grounding/bottom-up-attention/tools**. 
 ## Acknowledgments
 
 * Code from [rwightman/pytorch-nips2017-attack-example](https://github.com/rwightman/pytorch-nips2017-attack-example) is adapted for generating adversarial examples.
