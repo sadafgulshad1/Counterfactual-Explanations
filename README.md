@@ -3,7 +3,7 @@ This repository provides the code for our paper [Interpreting Adversarial Exampl
 ## Abstract
 Deep computer vision systems being vulnerable to imperceptible and carefully crafted noise have raised questions regarding the robustness of their decisions. We take a step back and approach this problem from an orthogonal direction. We propose to enable black-box neural networks to justify their reasoning both for clean and for adversarial examples by leveraging attributes, i.e. visually discriminative properties of objects. We rank attributes based on their class relevance, i.e. how the classification decision changes
 when the input is visually slightly perturbed, as well as image relevance, i.e. how well the attributes can be localized on both clean and perturbed images. We present comprehensive experiments for attribute prediction, adversarial example generation, adversarially robust learning, and their qualitative and quantitative analysis using predicted attributes on three benchmark datasets.
-![alt text](https://github.com/sadafgulshad1/Interpreting_-Adversarial_Examples_with_Attributes/blob/master/Model_Figure.png "Our interpretable attribute prediction-grounding model")
+![alt text](https://github.com/sadafgulshad1/Interpreting_-Adversarial_Examples_with_Attributes/blob/master/Model_Figure.png description="Our interpretable attribute prediction-grounding model")
 ### Prerequisites
 For executing this code you need to install 
 * Pytorch0.3
