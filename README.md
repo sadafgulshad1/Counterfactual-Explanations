@@ -28,8 +28,12 @@ For executing this code you need to install
 10. For testing Finetuned network's performance on examples with random noise run ```9.CUB_test_random_noise.py```.
 11. Analysis for randomly noised images could be performed in the same way as adversarial examples.
 12. For grounding predicted attributes for clean images on clean and adversarial images on adversarial execute code ```demo_copy5.py``` in folder **11.Grounding/bottom-up-attention/tools**. 
-## Acknowledgments
 
+
+
+
+## Acknowledgments
+* This research was funded my **Bosch Center for Artificial Intelligence**.
 * Code from [rwightman/pytorch-nips2017-attack-example](https://github.com/rwightman/pytorch-nips2017-attack-example) is adapted for generating adversarial examples.
 * Code from [yqxian/GCPR_Tutorial](https://github.com/sadafgulshad1/GCPR_Tutorial/tree/master/demo/sje) is adapted for predicting attributes.
 * Code from [wanglouis49/pytorch-adversarial_box](https://github.com/wanglouis49/pytorch-adversarial_box) is adapted for creating defenses.
