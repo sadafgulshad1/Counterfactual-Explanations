@@ -1,4 +1,4 @@
-# Understaning-Misclassifications-by-Attributes 
+# Understanding-Misclassifications-by-Attributes 
 This repository provides the code for our paper [Understaning Misclassifications by Attributes](https://arxiv.org/pdf/1910.07416.pdf)/ [Interpreting Adversarial Examples with Attributes](https://arxiv.org/pdf/1904.08279.pdf). The abstract of the paper is given as following 
 ## Abstract
 Deep computer vision systems being vulnerable to imperceptible and carefully crafted noise have raised questions regarding the robustness of their decisions. We take a step back and approach this problem from an orthogonal direction. We propose to enable black-box neural networks to justify their reasoning both for clean and for adversarial examples by leveraging attributes, i.e. visually discriminative properties of objects. We rank attributes based on their class relevance, i.e. how the classification decision changes
